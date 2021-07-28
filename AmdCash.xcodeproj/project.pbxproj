@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C89C975826B1AC95008A30BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975726B1AC95008A30BA /* AppDelegate.swift */; };
+		C89C975A26B1AC95008A30BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975926B1AC95008A30BA /* SceneDelegate.swift */; };
+		C89C975C26B1AC95008A30BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975B26B1AC95008A30BA /* ViewController.swift */; };
+		C89C975F26B1AC95008A30BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C975D26B1AC95008A30BA /* Main.storyboard */; };
+		C89C976226B1AC95008A30BA /* AmdCash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C89C976026B1AC95008A30BA /* AmdCash.xcdatamodeld */; };
+		C89C976426B1AC9A008A30BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89C976326B1AC9A008A30BA /* Assets.xcassets */; };
+		C89C976726B1AC9A008A30BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C976526B1AC9A008A30BA /* LaunchScreen.storyboard */; };
+		C89C977226B1AC9A008A30BA /* AmdCashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C977126B1AC9A008A30BA /* AmdCashTests.swift */; };
+		C89C977D26B1AC9A008A30BA /* AmdCashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C977C26B1AC9A008A30BA /* AmdCashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C89C976E26B1AC9A008A30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C89C974C26B1AC95008A30BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89C975326B1AC95008A30BA;
+			remoteInfo = AmdCash;
+		};
+		C89C977926B1AC9A008A30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C89C974C26B1AC95008A30BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89C975326B1AC95008A30BA;
+			remoteInfo = AmdCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C89C975426B1AC95008A30BA /* AmdCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmdCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89C975726B1AC95008A30BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C89C975926B1AC95008A30BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C89C975B26B1AC95008A30BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C89C975E26B1AC95008A30BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C89C976126B1AC95008A30BA /* AmdCash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmdCash.xcdatamodel; sourceTree = "<group>"; };
+		C89C976326B1AC9A008A30BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C89C976626B1AC9A008A30BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C89C976826B1AC9A008A30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89C976D26B1AC9A008A30BA /* AmdCashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmdCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89C977126B1AC9A008A30BA /* AmdCashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmdCashTests.swift; sourceTree = "<group>"; };
+		C89C977326B1AC9A008A30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89C977826B1AC9A008A30BA /* AmdCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmdCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89C977C26B1AC9A008A30BA /* AmdCashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmdCashUITests.swift; sourceTree = "<group>"; };
+		C89C977E26B1AC9A008A30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C89C975126B1AC95008A30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C976A26B1AC9A008A30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C977526B1AC9A008A30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C89C974B26B1AC95008A30BA = {
+			isa = PBXGroup;
+			children = (
+				C89C975626B1AC95008A30BA /* AmdCash */,
+				C89C977026B1AC9A008A30BA /* AmdCashTests */,
+				C89C977B26B1AC9A008A30BA /* AmdCashUITests */,
+				C89C975526B1AC95008A30BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C89C975526B1AC95008A30BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89C975426B1AC95008A30BA /* AmdCash.app */,
+				C89C976D26B1AC9A008A30BA /* AmdCashTests.xctest */,
+				C89C977826B1AC9A008A30BA /* AmdCashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89C975626B1AC95008A30BA /* AmdCash */ = {
+			isa = PBXGroup;
+			children = (
+				C89C975726B1AC95008A30BA /* AppDelegate.swift */,
+				C89C975926B1AC95008A30BA /* SceneDelegate.swift */,
+				C89C975B26B1AC95008A30BA /* ViewController.swift */,
+				C89C975D26B1AC95008A30BA /* Main.storyboard */,
+				C89C976326B1AC9A008A30BA /* Assets.xcassets */,
+				C89C976526B1AC9A008A30BA /* LaunchScreen.storyboard */,
+				C89C976826B1AC9A008A30BA /* Info.plist */,
+				C89C976026B1AC95008A30BA /* AmdCash.xcdatamodeld */,
+			);
+			path = AmdCash;
+			sourceTree = "<group>";
+		};
+		C89C977026B1AC9A008A30BA /* AmdCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				C89C977126B1AC9A008A30BA /* AmdCashTests.swift */,
+				C89C977326B1AC9A008A30BA /* Info.plist */,
+			);
+			path = AmdCashTests;
+			sourceTree = "<group>";
+		};
+		C89C977B26B1AC9A008A30BA /* AmdCashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C89C977C26B1AC9A008A30BA /* AmdCashUITests.swift */,
+				C89C977E26B1AC9A008A30BA /* Info.plist */,
+			);
+			path = AmdCashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C89C975326B1AC95008A30BA /* AmdCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C978126B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCash" */;
+			buildPhases = (
+				C89C975026B1AC95008A30BA /* Sources */,
+				C89C975126B1AC95008A30BA /* Frameworks */,
+				C89C975226B1AC95008A30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmdCash;
+			productName = AmdCash;
+			productReference = C89C975426B1AC95008A30BA /* AmdCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C89C976C26B1AC9A008A30BA /* AmdCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C978426B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashTests" */;
+			buildPhases = (
+				C89C976926B1AC9A008A30BA /* Sources */,
+				C89C976A26B1AC9A008A30BA /* Frameworks */,
+				C89C976B26B1AC9A008A30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C89C976F26B1AC9A008A30BA /* PBXTargetDependency */,
+			);
+			name = AmdCashTests;
+			productName = AmdCashTests;
+			productReference = C89C976D26B1AC9A008A30BA /* AmdCashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C89C977726B1AC9A008A30BA /* AmdCashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C978726B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashUITests" */;
+			buildPhases = (
+				C89C977426B1AC9A008A30BA /* Sources */,
+				C89C977526B1AC9A008A30BA /* Frameworks */,
+				C89C977626B1AC9A008A30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C89C977A26B1AC9A008A30BA /* PBXTargetDependency */,
+			);
+			name = AmdCashUITests;
+			productName = AmdCashUITests;
+			productReference = C89C977826B1AC9A008A30BA /* AmdCashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C89C974C26B1AC95008A30BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C89C975326B1AC95008A30BA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C89C976C26B1AC9A008A30BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C89C975326B1AC95008A30BA;
+					};
+					C89C977726B1AC9A008A30BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C89C975326B1AC95008A30BA;
+					};
+				};
+			};
+			buildConfigurationList = C89C974F26B1AC95008A30BA /* Build configuration list for PBXProject "AmdCash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C89C974B26B1AC95008A30BA;
+			productRefGroup = C89C975526B1AC95008A30BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89C975326B1AC95008A30BA /* AmdCash */,
+				C89C976C26B1AC9A008A30BA /* AmdCashTests */,
+				C89C977726B1AC9A008A30BA /* AmdCashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89C975226B1AC95008A30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C976726B1AC9A008A30BA /* LaunchScreen.storyboard in Resources */,
+				C89C976426B1AC9A008A30BA /* Assets.xcassets in Resources */,
+				C89C975F26B1AC95008A30BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C976B26B1AC9A008A30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C977626B1AC9A008A30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C89C975026B1AC95008A30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C975C26B1AC95008A30BA /* ViewController.swift in Sources */,
+				C89C976226B1AC95008A30BA /* AmdCash.xcdatamodeld in Sources */,
+				C89C975826B1AC95008A30BA /* AppDelegate.swift in Sources */,
+				C89C975A26B1AC95008A30BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C976926B1AC9A008A30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C977226B1AC9A008A30BA /* AmdCashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C977426B1AC9A008A30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C977D26B1AC9A008A30BA /* AmdCashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C89C976F26B1AC9A008A30BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C89C975326B1AC95008A30BA /* AmdCash */;
+			targetProxy = C89C976E26B1AC9A008A30BA /* PBXContainerItemProxy */;
+		};
+		C89C977A26B1AC9A008A30BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C89C975326B1AC95008A30BA /* AmdCash */;
+			targetProxy = C89C977926B1AC9A008A30BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C89C975D26B1AC95008A30BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89C975E26B1AC95008A30BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C89C976526B1AC9A008A30BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89C976626B1AC9A008A30BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C89C977F26B1AC9A008A30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C89C978026B1AC9A008A30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C89C978226B1AC9A008A30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C89C978326B1AC9A008A30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C89C978526B1AC9A008A30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmdCash.app/AmdCash";
+			};
+			name = Debug;
+		};
+		C89C978626B1AC9A008A30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmdCash.app/AmdCash";
+			};
+			name = Release;
+		};
+		C89C978826B1AC9A008A30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmdCash;
+			};
+			name = Debug;
+		};
+		C89C978926B1AC9A008A30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmdCashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gevorg-Tarkhanyan.AmdCashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmdCash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C89C974F26B1AC95008A30BA /* Build configuration list for PBXProject "AmdCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C977F26B1AC9A008A30BA /* Debug */,
+				C89C978026B1AC9A008A30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C978126B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C978226B1AC9A008A30BA /* Debug */,
+				C89C978326B1AC9A008A30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C978426B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C978526B1AC9A008A30BA /* Debug */,
+				C89C978626B1AC9A008A30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C978726B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C978826B1AC9A008A30BA /* Debug */,
+				C89C978926B1AC9A008A30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C89C976026B1AC95008A30BA /* AmdCash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C89C976126B1AC95008A30BA /* AmdCash.xcdatamodel */,
+			);
+			currentVersion = C89C976126B1AC95008A30BA /* AmdCash.xcdatamodel */;
+			path = AmdCash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C89C974C26B1AC95008A30BA /* Project object */;
+}
