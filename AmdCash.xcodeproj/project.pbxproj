@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA6676572221E274BF24394 /* Pods_AmdCash_AmdCashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8354CF88A0F91B77CEFC7DA /* Pods_AmdCash_AmdCashUITests.framework */; };
+		3B549856846667DEE14377B1 /* Pods_AmdCashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6E30E2AD0C23D5F3417B7E /* Pods_AmdCashTests.framework */; };
 		C89C975826B1AC95008A30BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975726B1AC95008A30BA /* AppDelegate.swift */; };
 		C89C975A26B1AC95008A30BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975926B1AC95008A30BA /* SceneDelegate.swift */; };
 		C89C975C26B1AC95008A30BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C975B26B1AC95008A30BA /* ViewController.swift */; };
@@ -16,6 +18,13 @@
 		C89C976726B1AC9A008A30BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C976526B1AC9A008A30BA /* LaunchScreen.storyboard */; };
 		C89C977226B1AC9A008A30BA /* AmdCashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C977126B1AC9A008A30BA /* AmdCashTests.swift */; };
 		C89C977D26B1AC9A008A30BA /* AmdCashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C977C26B1AC9A008A30BA /* AmdCashUITests.swift */; };
+		C89C978C26BA9144008A30BA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C978B26BA9144008A30BA /* Settings.storyboard */; };
+		C89C978F26BA92CF008A30BA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C978E26BA92CF008A30BA /* Home.storyboard */; };
+		C89C979426BA937D008A30BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979326BA937D008A30BA /* SettingsViewController.swift */; };
+		C89C979626BA93A6008A30BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979526BA93A6008A30BA /* HomeViewController.swift */; };
+		C89C979B26BC2E1D008A30BA /* passcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C979A26BC2E1D008A30BA /* passcode.storyboard */; };
+		C89C979D26BC2E32008A30BA /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */; };
+		EA659A6B9AE978496FC192FE /* Pods_AmdCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696B679CEF2443A8D1890769 /* Pods_AmdCash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A238FF1B1F9BA7C779BA6D /* Pods-AmdCashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCashTests.release.xcconfig"; path = "Target Support Files/Pods-AmdCashTests/Pods-AmdCashTests.release.xcconfig"; sourceTree = "<group>"; };
+		206CD152DA109A4D1FCC5E56 /* Pods-AmdCash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCash.debug.xcconfig"; path = "Target Support Files/Pods-AmdCash/Pods-AmdCash.debug.xcconfig"; sourceTree = "<group>"; };
+		696B679CEF2443A8D1890769 /* Pods_AmdCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmdCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B45DE6C8B8A49886AC2F121 /* Pods-AmdCashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCashTests.debug.xcconfig"; path = "Target Support Files/Pods-AmdCashTests/Pods-AmdCashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2014EDFB0E66A3E19BBACC /* Pods-AmdCash-AmdCashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCash-AmdCashUITests.debug.xcconfig"; path = "Target Support Files/Pods-AmdCash-AmdCashUITests/Pods-AmdCash-AmdCashUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C89C975426B1AC95008A30BA /* AmdCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmdCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89C975726B1AC95008A30BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C89C975926B1AC95008A30BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +65,16 @@
 		C89C977826B1AC9A008A30BA /* AmdCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmdCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89C977C26B1AC9A008A30BA /* AmdCashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmdCashUITests.swift; sourceTree = "<group>"; };
 		C89C977E26B1AC9A008A30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89C978B26BA9144008A30BA /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		C89C978E26BA92CF008A30BA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C89C979326BA937D008A30BA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C89C979526BA93A6008A30BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C89C979A26BC2E1D008A30BA /* passcode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = passcode.storyboard; sourceTree = "<group>"; };
+		C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		DD6E30E2AD0C23D5F3417B7E /* Pods_AmdCashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmdCashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9BFE4B25B6CCCA42FD40D6 /* Pods-AmdCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCash.release.xcconfig"; path = "Target Support Files/Pods-AmdCash/Pods-AmdCash.release.xcconfig"; sourceTree = "<group>"; };
+		F8354CF88A0F91B77CEFC7DA /* Pods_AmdCash_AmdCashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmdCash_AmdCashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDB933B9B2379CE353A3892 /* Pods-AmdCash-AmdCashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCash-AmdCashUITests.release.xcconfig"; path = "Target Support Files/Pods-AmdCash-AmdCashUITests/Pods-AmdCash-AmdCashUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA659A6B9AE978496FC192FE /* Pods_AmdCash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B549856846667DEE14377B1 /* Pods_AmdCashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA6676572221E274BF24394 /* Pods_AmdCash_AmdCashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0629AD01B3664A31A5E9811A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206CD152DA109A4D1FCC5E56 /* Pods-AmdCash.debug.xcconfig */,
+				EB9BFE4B25B6CCCA42FD40D6 /* Pods-AmdCash.release.xcconfig */,
+				8B2014EDFB0E66A3E19BBACC /* Pods-AmdCash-AmdCashUITests.debug.xcconfig */,
+				FCDB933B9B2379CE353A3892 /* Pods-AmdCash-AmdCashUITests.release.xcconfig */,
+				7B45DE6C8B8A49886AC2F121 /* Pods-AmdCashTests.debug.xcconfig */,
+				17A238FF1B1F9BA7C779BA6D /* Pods-AmdCashTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C89C974B26B1AC95008A30BA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				C89C977026B1AC9A008A30BA /* AmdCashTests */,
 				C89C977B26B1AC9A008A30BA /* AmdCashUITests */,
 				C89C975526B1AC95008A30BA /* Products */,
+				0629AD01B3664A31A5E9811A /* Pods */,
+				FD741A09A2A79C7E7D31FB76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,8 @@
 		C89C975626B1AC95008A30BA /* AmdCash */ = {
 			isa = PBXGroup;
 			children = (
+				C89C979E26BC3763008A30BA /* Controller */,
+				C89C979F26BC3777008A30BA /* View */,
 				C89C975726B1AC95008A30BA /* AppDelegate.swift */,
 				C89C975926B1AC95008A30BA /* SceneDelegate.swift */,
 				C89C975B26B1AC95008A30BA /* ViewController.swift */,
@@ -131,6 +175,60 @@
 			path = AmdCashUITests;
 			sourceTree = "<group>";
 		};
+		C89C978A26BA911D008A30BA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C89C978B26BA9144008A30BA /* Settings.storyboard */,
+				C89C979326BA937D008A30BA /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C89C978D26BA92B4008A30BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C89C978E26BA92CF008A30BA /* Home.storyboard */,
+				C89C979526BA93A6008A30BA /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C89C979926BC2DEF008A30BA /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				C89C979A26BC2E1D008A30BA /* passcode.storyboard */,
+				C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
+		C89C979E26BC3763008A30BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C89C978D26BA92B4008A30BA /* Home */,
+				C89C978A26BA911D008A30BA /* Settings */,
+				C89C979926BC2DEF008A30BA /* Passcode */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C89C979F26BC3777008A30BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD741A09A2A79C7E7D31FB76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696B679CEF2443A8D1890769 /* Pods_AmdCash.framework */,
+				F8354CF88A0F91B77CEFC7DA /* Pods_AmdCash_AmdCashUITests.framework */,
+				DD6E30E2AD0C23D5F3417B7E /* Pods_AmdCashTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C89C978126B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCash" */;
 			buildPhases = (
+				6DBE65241DA64109D197143C /* [CP] Check Pods Manifest.lock */,
 				C89C975026B1AC95008A30BA /* Sources */,
 				C89C975126B1AC95008A30BA /* Frameworks */,
 				C89C975226B1AC95008A30BA /* Resources */,
@@ -155,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C89C978426B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashTests" */;
 			buildPhases = (
+				C93AA19B3B3B13E705ECAD08 /* [CP] Check Pods Manifest.lock */,
 				C89C976926B1AC9A008A30BA /* Sources */,
 				C89C976A26B1AC9A008A30BA /* Frameworks */,
 				C89C976B26B1AC9A008A30BA /* Resources */,
@@ -173,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C89C978726B1AC9A008A30BA /* Build configuration list for PBXNativeTarget "AmdCashUITests" */;
 			buildPhases = (
+				C422C0235602CE6512F65E82 /* [CP] Check Pods Manifest.lock */,
 				C89C977426B1AC9A008A30BA /* Sources */,
 				C89C977526B1AC9A008A30BA /* Frameworks */,
 				C89C977626B1AC9A008A30BA /* Resources */,
@@ -234,9 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89C979B26BC2E1D008A30BA /* passcode.storyboard in Resources */,
 				C89C976726B1AC9A008A30BA /* LaunchScreen.storyboard in Resources */,
+				C89C978F26BA92CF008A30BA /* Home.storyboard in Resources */,
 				C89C976426B1AC9A008A30BA /* Assets.xcassets in Resources */,
 				C89C975F26B1AC95008A30BA /* Main.storyboard in Resources */,
+				C89C978C26BA9144008A30BA /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +360,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DBE65241DA64109D197143C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmdCash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C422C0235602CE6512F65E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmdCash-AmdCashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93AA19B3B3B13E705ECAD08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmdCashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C89C975026B1AC95008A30BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +438,9 @@
 				C89C976226B1AC95008A30BA /* AmdCash.xcdatamodeld in Sources */,
 				C89C975826B1AC95008A30BA /* AppDelegate.swift in Sources */,
 				C89C975A26B1AC95008A30BA /* SceneDelegate.swift in Sources */,
+				C89C979D26BC2E32008A30BA /* PasscodeViewController.swift in Sources */,
+				C89C979426BA937D008A30BA /* SettingsViewController.swift in Sources */,
+				C89C979626BA93A6008A30BA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +613,7 @@
 		};
 		C89C978226B1AC9A008A30BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206CD152DA109A4D1FCC5E56 /* Pods-AmdCash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +632,7 @@
 		};
 		C89C978326B1AC9A008A30BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9BFE4B25B6CCCA42FD40D6 /* Pods-AmdCash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +651,7 @@
 		};
 		C89C978526B1AC9A008A30BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B45DE6C8B8A49886AC2F121 /* Pods-AmdCashTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +673,7 @@
 		};
 		C89C978626B1AC9A008A30BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A238FF1B1F9BA7C779BA6D /* Pods-AmdCashTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +695,7 @@
 		};
 		C89C978826B1AC9A008A30BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2014EDFB0E66A3E19BBACC /* Pods-AmdCash-AmdCashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +715,7 @@
 		};
 		C89C978926B1AC9A008A30BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDB933B9B2379CE353A3892 /* Pods-AmdCash-AmdCashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
