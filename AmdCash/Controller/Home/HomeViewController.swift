@@ -6,16 +6,27 @@
 //
 
 import UIKit
+import BiometricAuthentication
 
 class HomeViewController: UIViewController {
 
+    var customView : UIView {
+        let view = UIView()
+        view.backgroundColor = .red
+        return view
+    }
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        view.addSubview(customView)
+                
+        customView.anch
+        
         // Do any additional setup after loading the view.
     }
     
-
+    
     /*
     // MARK: - Navigation
 

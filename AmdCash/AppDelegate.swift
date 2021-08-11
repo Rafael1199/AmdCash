@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import CoreData
-
+import CoreData 
+import BiometricAuthentication
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

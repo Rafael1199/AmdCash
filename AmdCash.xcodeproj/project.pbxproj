@@ -22,8 +22,7 @@
 		C89C978F26BA92CF008A30BA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C978E26BA92CF008A30BA /* Home.storyboard */; };
 		C89C979426BA937D008A30BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979326BA937D008A30BA /* SettingsViewController.swift */; };
 		C89C979626BA93A6008A30BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979526BA93A6008A30BA /* HomeViewController.swift */; };
-		C89C979B26BC2E1D008A30BA /* passcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C979A26BC2E1D008A30BA /* passcode.storyboard */; };
-		C89C979D26BC2E32008A30BA /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */; };
+		C89C979B26BC2E1D008A30BA /* BioMetricAuthenticator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C979A26BC2E1D008A30BA /* BioMetricAuthenticator.storyboard */; };
 		EA659A6B9AE978496FC192FE /* Pods_AmdCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696B679CEF2443A8D1890769 /* Pods_AmdCash.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,8 +68,7 @@
 		C89C978E26BA92CF008A30BA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		C89C979326BA937D008A30BA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C89C979526BA93A6008A30BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		C89C979A26BC2E1D008A30BA /* passcode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = passcode.storyboard; sourceTree = "<group>"; };
-		C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		C89C979A26BC2E1D008A30BA /* BioMetricAuthenticator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BioMetricAuthenticator.storyboard; sourceTree = "<group>"; };
 		DD6E30E2AD0C23D5F3417B7E /* Pods_AmdCashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmdCashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9BFE4B25B6CCCA42FD40D6 /* Pods-AmdCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmdCash.release.xcconfig"; path = "Target Support Files/Pods-AmdCash/Pods-AmdCash.release.xcconfig"; sourceTree = "<group>"; };
 		F8354CF88A0F91B77CEFC7DA /* Pods_AmdCash_AmdCashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmdCash_AmdCashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				C89C979E26BC3763008A30BA /* Controller */,
-				C89C979F26BC3777008A30BA /* View */,
 				C89C975726B1AC95008A30BA /* AppDelegate.swift */,
 				C89C975926B1AC95008A30BA /* SceneDelegate.swift */,
 				C89C975B26B1AC95008A30BA /* ViewController.swift */,
@@ -196,8 +193,7 @@
 		C89C979926BC2DEF008A30BA /* Passcode */ = {
 			isa = PBXGroup;
 			children = (
-				C89C979A26BC2E1D008A30BA /* passcode.storyboard */,
-				C89C979C26BC2E32008A30BA /* PasscodeViewController.swift */,
+				C89C979A26BC2E1D008A30BA /* BioMetricAuthenticator.storyboard */,
 			);
 			path = Passcode;
 			sourceTree = "<group>";
@@ -210,13 +206,6 @@
 				C89C979926BC2DEF008A30BA /* Passcode */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C89C979F26BC3777008A30BA /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		FD741A09A2A79C7E7D31FB76 /* Frameworks */ = {
@@ -240,6 +229,7 @@
 				C89C975026B1AC95008A30BA /* Sources */,
 				C89C975126B1AC95008A30BA /* Frameworks */,
 				C89C975226B1AC95008A30BA /* Resources */,
+				DEE4CBFDF9C27FE9E718BEE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +267,7 @@
 				C89C977426B1AC9A008A30BA /* Sources */,
 				C89C977526B1AC9A008A30BA /* Frameworks */,
 				C89C977626B1AC9A008A30BA /* Resources */,
+				9CE97AECB882D92698BE3F1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +285,9 @@
 		C89C974C26B1AC95008A30BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -335,7 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C89C979B26BC2E1D008A30BA /* passcode.storyboard in Resources */,
+				C89C979B26BC2E1D008A30BA /* BioMetricAuthenticator.storyboard in Resources */,
 				C89C976726B1AC9A008A30BA /* LaunchScreen.storyboard in Resources */,
 				C89C978F26BA92CF008A30BA /* Home.storyboard in Resources */,
 				C89C976426B1AC9A008A30BA /* Assets.xcassets in Resources */,
@@ -383,6 +377,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9CE97AECB882D92698BE3F1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmdCash-AmdCashUITests/Pods-AmdCash-AmdCashUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmdCash-AmdCashUITests/Pods-AmdCash-AmdCashUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmdCash-AmdCashUITests/Pods-AmdCash-AmdCashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C422C0235602CE6512F65E82 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +438,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DEE4CBFDF9C27FE9E718BEE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmdCash/Pods-AmdCash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmdCash/Pods-AmdCash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmdCash/Pods-AmdCash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -438,7 +466,6 @@
 				C89C976226B1AC95008A30BA /* AmdCash.xcdatamodeld in Sources */,
 				C89C975826B1AC95008A30BA /* AppDelegate.swift in Sources */,
 				C89C975A26B1AC95008A30BA /* SceneDelegate.swift in Sources */,
-				C89C979D26BC2E32008A30BA /* PasscodeViewController.swift in Sources */,
 				C89C979426BA937D008A30BA /* SettingsViewController.swift in Sources */,
 				C89C979626BA93A6008A30BA /* HomeViewController.swift in Sources */,
 			);
